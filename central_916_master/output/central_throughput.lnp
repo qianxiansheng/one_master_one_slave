@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+".\output\main.o"
+".\output\profile.o"
+".\output\uart_console.o"
+".\output\startup_ing91600.o"
+"..\sdk\bundles\typical\ING9168xx\symdefs.m"
+".\output\iic.o"
+".\output\peripheral_uart.o"
+".\output\peripheral_sysctrl.o"
+".\output\peripheral_timer.o"
+".\output\peripheral_rtc.o"
+".\output\peripheral_pinctrl.o"
+".\output\peripheral_gpio.o"
+".\output\peripheral_i2c.o"
+".\output\ad_parser.o"
+".\output\rf_util.o"
+".\output\log_util.o"
+".\output\str_util.o"
+".\output\trace.o"
+--library_type=microlib --strict --scatter ".\output\central_throughput.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listing\central_throughput.map" -o .\output\central_throughput.axf

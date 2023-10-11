@@ -1,0 +1,62 @@
+{
+ "bundle_meta": {
+  "rom": {
+   "size": 152204,
+   "base": 33562624
+  },
+  "ram": {
+   "size": 21796,
+   "base": 536870912
+  },
+  "app": {
+   "base": 33718272
+  },
+  "version": [
+   2,1,2]
+ },
+ "tc_dir": "E:\/K5\/uv4",
+ "ide_ver": "5",
+ "ide_exe": "E:\/K5\/uv4\/uv4.exe",
+ "ota": false,
+ "ide": "keil",
+ "git": false,
+ "scan_data": "0\r\n",
+ "log_uart1": false,
+ "enable_hci_log": false,
+ "ota_ver_minor": "0",
+ "ota_ver_major": "0",
+ "template": "C:\\projects\\ingWizard\\templates\\typical\\peripheral",
+ "series": "ING9168xx",
+ "proj_name": "peripheral_throughput",
+ "sdk_release_path": "..\/..",
+ "legacy_adv": true,
+ "adv_data": "\/\/ 0x01 - \ufffd\ufffdFlags\ufffd\ufffd\r\n2, 0x01,\r\n0x06, \r\n\r\n\/\/ 0x07 - \ufffd\ufffdComplete List of 128-bit Service Class UUIDs\ufffd\ufffd\r\n17, 0x07,\r\n0x85, 0x14, 0x50, 0x6F, 0xFB, 0xFD, 0xD1, 0xB4, \r\n0x74, 0x48, 0xD4, 0xA1, 0x4A, 0x31, 0x45, 0x24, \r\n\r\n\/\/ 0x09 - \ufffd\ufffdComplete Local Name\ufffd\ufffd\r\n8, 0x09,\r\n0x49, 0x4E, 0x47, 0x20, 0x54, 0x70, 0x74, \r\n\r\n\/\/ Total size = 30 bytes\r\n",
+ "wizard_dir": "C:\/projects\/ingWizard",
+ "pb_adv": true,
+ "pb_gatt": true,
+ "deep_sleep": true,
+ "proj_dir": "E:\/K5\/.Download\/ING_SDK\/sdk\/examples\\peripheral_throughput",
+ "power_saving": false,
+ "gatt_handle_value": "6",
+ "bundle": "typical",
+ "app_rom_size": "360448",
+ "app_rom_addr": "33718272",
+ "family": "ing916",
+ "vcode": false,
+ "role": "peripheral",
+ "mesh": {
+  "lowpower": true,
+  "friend": true,
+  "relay": true,
+  "proxy": true
+ },
+ "keil": true,
+ "cmsis": "",
+ "gatt_handle_name": "HANDLE_GENERIC_INPUT",
+ "app_ram_size": 10968,
+ "app_ram_addr": 536892712,
+ "uart_log": true,
+ "ota_ver_patch": "0",
+ "profile_data": "\/\/ Service Generic Access: 1800\r\n0x0A, 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x28,\r\n0x00, 0x18, \r\n\/\/ Characteristic Device Name: 2A00\r\n0x0D, 0x00, 0x02, 0x00, 0x02, 0x00, 0x03, 0x28,\r\n0x02, 0x03, 0x00, 0x00, 0x2A, \r\n0x0F, 0x00, 0x02, 0x00, 0x03, 0x00, 0x00, 0x2A,\r\n0x49, 0x4E, 0x47, 0x20, 0x54, 0x70, 0x74, \r\n\r\n\/\/ Service INGChips Throughput Service: {2445314a-a1d4-4874-b4d1-fdfb6f501485}\r\n0x18, 0x00, 0x02, 0x00, 0x04, 0x00, 0x00, 0x28,\r\n0x85, 0x14, 0x50, 0x6F, 0xFB, 0xFD, 0xD1, 0xB4, \r\n0x74, 0x48, 0xD4, 0xA1, 0x4A, 0x31, 0x45, 0x24, \r\n\/\/ Characteristic Generic Input: {bf83f3f1-399a-414d-9035-ce64ceb3ff67}\r\n0x1B, 0x00, 0x02, 0x00, 0x05, 0x00, 0x03, 0x28,\r\n0x04, 0x06, 0x00, 0x67, 0xFF, 0xB3, 0xCE, 0x64, \r\n0xCE, 0x35, 0x90, 0x4D, 0x41, 0x9A, 0x39, 0xF1, \r\n0xF3, 0x83, 0xBF, \r\n0x16, 0x00, 0x04, 0x03, 0x06, 0x00,\r\n0x67, 0xFF, 0xB3, 0xCE, 0x64, 0xCE, 0x35, 0x90, \r\n0x4D, 0x41, 0x9A, 0x39, 0xF1, 0xF3, 0x83, 0xBF, \r\n\r\n0x00,0x00\r\n\/\/ total size = 113\r\n\r\n\/\/ HANDLE_DEVICE_NAME=3\r\n\/\/ HANDLE_GENERIC_INPUT=6\r\n\r\n\/\/ HANDLE_DEVICE_NAME_OFFSET=31\r\n\/\/ HANDLE_GENERIC_INPUT_OFFSET=111\r\n",
+ "coding_profile": false
+}

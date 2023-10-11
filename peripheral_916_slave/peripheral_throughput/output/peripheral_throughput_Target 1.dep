@@ -1,0 +1,309 @@
+Dependencies for Project 'peripheral_throughput', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\src\main.c)(0x63807F76)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/main.o -MD)
+I (src\profile.h)(0x6260C5CC)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+I (..\sdk\bundles\typical\inc\platform_api.h)(0x63B528AA)
+I (..\sdk\bundles\typical\inc\ll_api.h)(0x63B528AA)
+I (E:\K5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\sdk\src\Tools\rf_util.h)(0x63ABE442)
+I (..\sdk\src\BSP\board.h)(0x63AFB8B6)
+F (.\src\profile.c)(0x63BE6A8F)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/profile.o -MD)
+I (E:\K5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (..\sdk\bundles\typical\inc\platform_api.h)(0x63B528AA)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+I (..\sdk\bundles\typical\inc\ll_api.h)(0x63B528AA)
+I (..\sdk\bundles\typical\inc\att_db.h)(0x63B528A8)
+I (..\sdk\bundles\typical\inc\bluetooth.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\bt_types.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\btstack_linked_list.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\gap.h)(0x63B528A8)
+I (..\sdk\bundles\typical\inc\btstack_event.h)(0x63B528A8)
+I (..\sdk\src\StartUP\ing918\compiler.h)(0x6260C5CC)
+I (..\sdk\bundles\typical\inc\btstack_util.h)(0x63B528A8)
+I (..\sdk\bundles\typical\inc\btstack_defines.h)(0x62BBC5AC)
+I (src\..\data\gatt.const)(0x6260C5CC)
+I (src\..\data\advertising.adv)(0x6260C5CC)
+I (src\..\data\scan_response.adv)(0x6260C5CC)
+I (src\..\data\gatt.profile)(0x6260C5CC)
+F (.\src\startup_ing91800.s)(0x6260C5CC)(--cpu Cortex-M3 -g --pd "__MICROLIB SETA 1"
+
+-I.\RTE\_Target_1
+
+-IE:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+
+--pd "__UVISION_VERSION SETA 536"
+
+--pd "_RTE_ SETA 1"
+
+--pd "_RTE_ SETA 1"
+
+--list .\listing\startup_ing91800.lst
+../sdk../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+--xref -o .\output\startup_ing91800.o
+
+--depend .\output\startup_ing91800.d)
+F (..\sdk\bundles\typical\ING9187xx\symdefs.m)(0x63B53179)()
+F (..\sdk\src\BSP\board.c)(0x63AFCD66)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/board.o -MD)
+I (E:\K5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (../sdk\ARM\ARMCLANG\include\string.h)(0x603507D0)../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+I (..\sdk\bundles\typical\inc\os\FreeRTOS.h)(0x6260C5CA)../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+I (E:\K5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (..\sdk\bundles\typical\inc\os\FreeRTOSConfig.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\os\projdefs.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\os\portable.h)(0x63B528AA)
+I (..\sdk\bundles\typical\inc\os\deprecated_definitions.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\os\portmacro.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\os\.\portable\GCC\ARM_CM3\portmacro.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\os\mpu_wrappers.h)(0x6260C5CA)
+I (..\sdk\bundles\typical\inc\os\task.h)(0x63B528AA)
+I (..\sdk\bundles\typical\inc\os\list.h)(0x63B528AA)
+I (..\sdk\src\BSP\board.h)(0x63AFB8B6)
+I (..\sdk\bundles\typical\inc\platform_api.h)(0x63B528AA)
+I (..\sdk\bundles\typical\inc\ll_api.h)(0x63B528AA)
+F (../..\src\FWlib\peripheral_uart.c)(0x6260C5CC)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/peripheral_uart.o -MD)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)../sdk../sdk../sdk../sdk../sdk../sdk../sdk
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+F (../..\src\FWlib\peripheral_sysctrl.c)(0x63B527CC)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/peripheral_sysctrl.o -MD)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+F (..\sdk\src\FWlib\peripheral_pinctrl.c)(0x63AFCF26)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/peripheral_pinctrl.o -MD)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+F (..\sdk\src\FWlib\peripheral_gpio.c)(0x63AFC304)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/peripheral_gpio.o -MD)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+F (..\sdk\src\Tools\rf_util.c)(0x6260C5CC)(-xc -std=gnu99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c
+
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+
+-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../bundles/typical/inc -I ../../bundles/typical/inc/os -I ../../src/BSP -I ../../src/FWlib -I ../../src/StartUP/ing918 -I ../../src/Tools -I ../../src
+
+-I./RTE/_Target_1
+
+-IE:/K5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+
+-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_ -DUSE_STDPERIPH_DRIVER -DBOARD_USE_KEYS
+
+-o ./output/rf_util.o -MD)
+I (..\sdk\bundles\typical\inc\platform_api.h)(0x63B528AA)
+I (E:\K5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\sdk\src\StartUP\ing918\ingsoc.h)(0x6260C5CC)
+I (..\sdk\src\StartUP\ing918\..\__ingsoc.h)(0x6260C5CC)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\K5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\sdk\src\FWlib\peripheral_uart.h)(0x6260C5CC)
+I (..\sdk\src\FWlib\peripheral_gpio.h)(0x63AFC306)
+I (..\sdk\src\FWlib\peripheral_sysctrl.h)(0x63B526F2)
+I (..\sdk\src\FWlib\peripheral_i2c.h)(0x634CBB80)
+I (..\sdk\src\FWlib\peripheral_pinctrl.h)(0x63AFCF2E)
+I (..\sdk\src\FWlib\peripheral_rtc.h)(0x63ABE442)
+I (..\sdk\src\FWlib\peripheral_ssp.h)(0x63805914)
+I (..\sdk\src\FWlib\peripheral_timer.h)(0x63A550A0)
+I (..\sdk\src\FWlib\peripheral_adc.h)(0x63AFB442)
+I (..\sdk\src\FWlib\peripheral_pwm.h)(0x63AE4F10)
+I (..\sdk\bundles\typical\inc\ll_api.h)(0x63B528AA)
+I (..\sdk\src\Tools\rf_powerboost.dat)(0x6260C5CC)

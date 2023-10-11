@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\output\main.o"
+".\output\profile.o"
+".\output\startup_ing91800.o"
+"..\sdk\bundles\typical\ING9187xx\symdefs.m"
+".\output\board.o"
+".\output\peripheral_uart.o"
+".\output\peripheral_sysctrl.o"
+".\output\peripheral_pinctrl.o"
+".\output\peripheral_gpio.o"
+".\output\rf_util.o"
+--library_type=microlib --strict --scatter ".\output\peripheral_throughput.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listing\peripheral_throughput.map" -o .\output\peripheral_throughput.axf
